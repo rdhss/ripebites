@@ -113,6 +113,15 @@ export interface steps {
     title : string 
 }
 
+export const questionFood : Array<string> = [
+    "Do you offer any vegan options?",
+    "Do you offer any gluten free options?",
+    "Can I clone these sections?",
+    "Why is Webflow so amazing?",
+    "Do we need to write a business plan?",
+    "How can we get funding for our start up?"
+]
+
 
 
 export const worked : Array<steps> = [

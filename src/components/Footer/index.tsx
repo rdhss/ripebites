@@ -9,8 +9,9 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-primary/[0.03] pt-9 px-5 w-screen">
-      <div>
+    <div className="bg-primary/[0.03] pt-9 px-5 md:px-56 w-screen ">
+      <div className="flex flex-col md:flex-row justify-between">
+      <div className="md:mt-16">
         <Image src={logo} alt="logo" width={50} className="mb-5" />
         <p className="text-muted">
           Takeaway & Delivery template
@@ -59,8 +60,9 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr className="mt-40" />
-      <div className="w-full grid grid-cols-2 gap-8">
+      </div>
+      <hr className="mt-40"/>
+      <div className="w-full grid grid-cols-2 gap-8 md:gap-10 md:flex md:justify-center">
         <div className="py-16 text-muted">
           Made by rdhss - Powered by Webflow
         </div>
