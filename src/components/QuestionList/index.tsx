@@ -42,8 +42,8 @@ const QuestionsList = () => {
           ))}
         </div>
         <animated.div style={fade} className=' my-24'> 
-        {questionFood.map(item => 
-        <QuestionsCard item={item}/>
+        {questionFood.map((item, idx) => 
+        <QuestionsCard key={idx} item={item}/>
           )}
         </animated.div>
     </div>

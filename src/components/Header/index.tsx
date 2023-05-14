@@ -140,7 +140,7 @@ const Header  = () => {
                 </>
               :
             <div className="w-full flex justify-center items-center flex-col">
-              <h1 className="text-center">We Couldn't find any items in your cart</h1>
+              <h1 className="text-center">We Couldn&apos;t find any items in your cart</h1>
               <button onClick={()=>{router.push("/order"); setCard(false)}} className="bg-primary mt-7 text-white text-xl px-6 py-4 rounded-md text-center">
                 Start an Order
               </button>
