@@ -6,7 +6,7 @@
 </div>
 
 
-## 🚨 Forking this repo (please read!)
+## Description
 
 RipeBites is webapp that allows customers to order food from restaurants, cafes, and other food establishments and have it delivered directly to their doorstep
 
