@@ -23,7 +23,7 @@ RipeBites is webapp that allows customers to order food from restaurants, cafes,
    ```
 1. change dir
    ```sh
-   cd simpel-quicks
+   cd ripebites
    ```
 2. Install NPM packages
    ```sh
@@ -31,19 +31,5 @@ RipeBites is webapp that allows customers to order food from restaurants, cafes,
    ```
 3. Start the Application
    ```sh
-   npm start
-   ```
-
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
-   npm run build
-   ```
-
-1. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
+   npm run dev
    ```
