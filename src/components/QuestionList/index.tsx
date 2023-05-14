@@ -25,9 +25,10 @@ const QuestionsList = () => {
   return (
     <div className='md:px-64'>
         <div className="grid grid-cols-2 md:grid-cols-3 text-header1 gap-3 px-8 justify-items-center ">
-          {["Our Food", "Our Delivery", "Our Company"].map((item) => (
+          {["Our Food", "Our Delivery", "Our Company"].map((item, key) => (
             <>
               <button
+              key={key}
                 className={`${
                   currentTab === item
                     ? "bg-primary text-white"
