@@ -2,7 +2,7 @@
   RipeBites
 </h1>
 <div align="center">
-  <img alt="Logo" src="./src/assets/images/readme.png" width="100" />
+  <img alt="Logo" src="./src/assets/images/readme.png" />
 </div>
 
 
