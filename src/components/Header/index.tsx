@@ -58,7 +58,7 @@ const Header  = () => {
             <div className="hidden mr-9 md:flex gap-8 text-muted">
           {[{name : "Home", path : '/'}, {name : "Order", path : '/order'}, {name : "Company", path : '/company'}, {name : "FAQ", path : '/faq'}]?.map((item, idx) => (
               <>
-                <p className="py-5 pl-5">
+                <p key={idx} className="py-5 pl-5">
                   <Link
                     onClick={()=> setShowNav(false)}
                     href={item.path}
@@ -95,7 +95,7 @@ const Header  = () => {
           <ul className="z-[-1]">
             {[{name : "Home", path : '/'}, {name : "Order", path : '/order'}, {name : "Company", path : '/company'}, {name : "FAQ", path : '/faq'}]?.map((item, idx) => (
               <>
-                <li className="py-5 ">
+                <li key={idx} className="py-5 ">
                   <Link
                     onClick={()=> setShowNav(false)}
                     href={item.path}
@@ -119,8 +119,8 @@ const Header  = () => {
               <main className={`px-7 overflow-scroll h-[715px] ${test === false && 'h-full flex items-center justify-center'}`}>
               {cart.length > 0 ? 
               <>
-              {cart.map(item =>      
-              <div className="flex justify-between items-center mt-7">       
+              {cart.map((item,idx) =>      
+              <div key={idx} className="flex justify-between items-center mt-7">       
                   <div className="flex gap-5" >
                     <Image src={require(`@/assets/images/${item.url}`)} alt="logo" width={70} />
                       <div>

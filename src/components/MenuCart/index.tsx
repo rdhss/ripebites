@@ -177,9 +177,10 @@ const MenuCart = ({path} : menu) => {
     <div>
       <div className="">
         <div className="grid grid-cols-2 md:grid-cols-4 text-header1 gap-3 px-8 md:px-96">
-          {["Full Menu", "Burger", "Sides", "Drinks"].map((item) => (
+          {["Full Menu", "Burger", "Sides", "Drinks"].map((item, idx) => (
             <>
               <button
+              key={idx}
                 className={`${
                   currentTab === item
                     ? "bg-primary text-white"
